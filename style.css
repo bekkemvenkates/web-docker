@@ -1,0 +1,35 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.wrapper{
+   background: url(https://www.filepicker.io/api/file/xYJEO83mT8qIkpsnk5Bf) no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.navbar{
+   height: 110px;
+   width: 100%;
+   background: rgba(0,0,0,0.4);
+}
+.wrapper .center{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+
+}
+.center h1{
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  width: 1500px;
+  text-align: center;
+}
+.button {
+  background-color: lightblue;
+  color: black;
+  font-size: 25px;
+
+}

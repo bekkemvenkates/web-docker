@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Docker</title>
+   <link rel="stylesheet" href="style.css">
+   <script type="text/javascript" src="third.js"></script>
+   <style>
+   button{
+   padding: 15px 32px;
+     }
+   fieldset{
+   height: 180px;
+   width: 600px;
+     }
+   legend{
+   background-color: gray;
+   color: white;
+   padding: 5px 10px;
+   font-size: 25px;
+   font-family: Roboto, Arial, sans-serif;
+     }
+   .item{
+   position: relative;
+   margin: 30px 5px;
+     }
+   input, select, textarea {
+      margin-bottom: 5px;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+
+     }
+    input {
+      width: calc(100% - 50%);
+      padding: 5px;
+     }
+    input[type="text"] {
+      padding: 8px 10px;
+     }
+    button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background:  #87CEEB;
+      font-size: 25px;
+      color: #fff;
+      cursor: pointer;
+     }
+    .label {
+      color: #fffdfd;
+      padding: 20px;
+     }
+   </style>
+</head>
+<body>
+     <div class="wrapper">
+     <nav class="navbar">
+
+     </nav>
+     <div class="center">
+        <h1>Get Started With Docker</h1>
+     </div>
+      <br/>
+    <center>
+      <fieldset>
+        <legend>Docker Commands</legend>
+        <div class="colums">
+
+          <div class="label">
+            <h2>Command You Want To Execute</h2>
+            <input id="newid" type="text"  >
+          </div>
+
+
+     </fieldset>
+      <br/>
+
+      <div>
+      <button type="submit" onclick="doccmd()" >Execute Commands</button>
+      </div>
+      <fieldset>
+        <legend>Command Output</legend>
+        <div class="colums">
+      <div class="label">
+        <h2>Output</h2>
+        <pre><p id="output"></p></pre>
+      </div>
+
+      </fieldset>
+    </center>
+      <br/>
+     </div>
+
+
+</body>
+</html>
